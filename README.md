@@ -61,7 +61,7 @@ The environment contains:
 * **16 states**
 * **4 actions**
 
-Actions
+**Actions**
 
 | Action Number | Direction |
 | ------ | ------- |
