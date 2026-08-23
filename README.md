@@ -23,18 +23,60 @@ The objective of this experiment is to:
 
 ## Software Requirements
 
-```bash
+Software
+```
+Python 3.x
+Jupyter Notebook / Google Colab / VS Code
+Gymnasium
+NumPy
+Matplotlib
+```
+
+Installation
+```
 pip install gymnasium numpy matplotlib
 ```
 
----
 
 ## Environment Description
 
+The experiment uses the FrozenLake-v1 environment from Gymnasium.
 
+The default 4 × 4 FrozenLake environment is:
 
+S  F  F  F
+F  H  F  H
+F  F  F  H
+H  F  F  G
 
+Where:
 
+S = Starting state
+F = Frozen/safe tile
+H = Hole
+G = Goal
+
+The environment contains:
+
+16 states
+4 actions
+
+Actions
+
+| Action Number | Direction |
+| ------ | ------- |
+| 0      | Left    |
+| 1      | Down    |
+| 2      | Right   |
+| 3      | Up      |
+
+The agent receives a reward of 1 when it reaches the goal. Other transitions generally provide a reward of 0.
+
+In this experiment:
+
+is_slippery=False
+
+is used so that the environment is deterministic and the effect of the learned policy can be clearly observed.
 
 
 ## Theory
