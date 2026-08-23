@@ -51,10 +51,10 @@ H  F  F  G
 ```
 Where:
 
-**S** = Starting state  
-**F** = Frozen surface  
-**H** = Hole  
-**G** = Goal
+**S**  = Starting state  
+**F**  = Frozen surface  
+**H**  = Hole  
+**G**  = Goal
 
 The environment contains:
 
