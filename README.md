@@ -23,7 +23,7 @@ The objective of this experiment is to:
 
 ## Software Requirements
 
-# Software
+#### Software
 ```
 Python 3.x
 Jupyter Notebook / Google Colab / VS Code
@@ -32,7 +32,7 @@ NumPy
 Matplotlib
 ```
 
-# Installation
+#### Installation
 ```
 pip install gymnasium numpy matplotlib
 ```
